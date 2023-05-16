@@ -52,6 +52,10 @@ class Carousel{
 
     }
 
+    mudarBackground(imagem) {
+        document.body.style.backgroundImage = "url('" + imagem + "')";
+      }
+
 }
 const exampleCarousel = new Carousel(galleryContainer, galleryItems,galleryControls);
 
