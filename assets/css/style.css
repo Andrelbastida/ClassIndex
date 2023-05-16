@@ -1,0 +1,170 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul { list-style: none; padding-left: 5px; }
+a { color:rgb(10, 0, 58); text-decoration: none;}
+section {
+    background-color: #f9f9fb;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+header{
+    
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding-left: 280px;
+    padding-right: 280px;
+    
+}
+#logoSenai{
+    
+    
+}
+#fotoPerfil{
+    border-radius: 70%;
+    height: 150px;
+}
+nav{
+    height: 850px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+nav ul{
+    height: 30px;
+    cursor: pointer;
+    
+}
+nav ul :hover{
+    margin: 0px;
+    padding: 0px;
+    height: 120px;
+    transition: 3s;
+    translate: 28px 0px 0px;
+    
+}
+
+nav ul ul li{
+    display: none;
+    opacity: 00%;
+    
+}
+
+nav ul li :hover>li{
+    margin-left: 20px;
+    height: 30px;
+    transition: 2s;
+    display: block;
+    opacity: 100%;
+}
+nav ul ul li{
+    width: 150px;
+    padding-top: 4px;
+    font: bold;
+    font-style: oblique;
+    color: rgba(76, 95, 122, 0.671);
+
+    
+}
+nav ul ul li:hover{
+    color: #7e89c0;
+    translate: 18px 0px 50px;
+}
+
+main {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 2rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+footer {
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+}
+aside {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 25px;
+}
+nav{
+    border-right: solid 1px #cdcdcd;
+}
+figure {
+    text-align: center;
+}
+li img{
+    height: 330px;
+}
+fieldset{
+    border-color: #3e3e69;
+    border-radius: 30px;
+    padding: 20px;
+
+}
+legend{
+
+color: #3e4d69;
+border-color: #3e5069;
+}
+aside img{
+    border-radius: 5px;
+}
+
+.imgHalo0:hover{
+    transition: 2s ;
+    transform: scale(1.1);
+    translate: -18px 15px 50px;
+}
+
+.imgHalo1:hover{
+    transition: 2s ;
+    transform: scale(1.1);
+    translate: -18px 15px 50px;
+    
+    
+}
+
+.imgHalo2:hover{
+    transition: 2s ;
+    transform: scale(1.1);
+    translate: -18px 15px 50px;
+    
+
+}
+
+.imgHalo3:hover{
+    transition: 2s ;
+    transform: scale(1.1);
+    translate: -18px 15px 50px;
+
+}
+.imgHalo4:hover{
+    transition: 2s ;
+    transform: scale(1.1);
+    translate: -18px 15px 50px;
+
+}
+.imgHalo5:hover{
+    transition: 2s ;
+    transform: scale(1.1);
+    translate: -18px 15px 50px;
+
+}
+.imgHalo6:hover{
+    transition: 2s ;
+    transform: scale(1.1);
+    translate: -18px 15px 50px;
+
+}
