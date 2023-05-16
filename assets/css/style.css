@@ -80,6 +80,7 @@ nav ul ul li:hover{
 }
 
 main {
+  background-color: #000;
     max-width: 1440px;
     margin: auto;
     grid-gap: 3rem;
@@ -92,7 +93,7 @@ main {
 }
 footer {
     min-height: 100px;
-    border-top: solid 1px #cdcdcd;
+    border-top: solid 1px #f8f8f8;
 }
 aside {
     border-left: solid 1px #cdcdcd;
@@ -168,24 +169,24 @@ aside img{
     translate: -18px 15px 50px;
 
 }
-____________________________________________________
-a:hover{
-    box-shadow: 0px 1.5px 0px rgb(2, 32, 65) ;
-    cursor: pointer;
-}
 
+.ProjetosLP{
+  background-color: #000;
+}
+/*____________________________________________________*/
 section{
     width: 90%;
-    height: 100vh;
-    padding-top: 60px;
+    height: 110vh;
+    
     padding-left: 30px;
     padding-right: 30px;
+    padding-top: 10%;
     display:flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    /*align-items: center;
+    justify-content: space-around;  comando para alinhar o carrosel no centro */
     border: solid;
-    background-color: #195aa3;
+    background-color: #080808;
     
 }
   
@@ -195,30 +196,31 @@ section{
   .gallery-container{
     align-items: center;
     display: flex;
-    height: 400px;
+    
     margin: 0 auto;
     max-width: 1000px;
+    min-height: 100%;
     position: relative;
   }
   .gallery-item{
-    height: 200px;
+    height: 100%;
+    
     opacity: 0;
     position: absolute;
     transition: all 0.3s ease-in-out;
-    width: 330px;
     z-index: 0;
     border-radius: 15px;
     background-size: contain;
   }
   .gallery-item-1{
     left: 15%;
-    opacity: .4;
+    opacity: 0.7;
     transform: translateX(-50%);
   }
   .gallery-item-2,.gallery-item-4{
-    height: 250px;
-    opacity: 0.8;
-    width: 380px;
+    height: 160%;
+    opacity: 0.95;
+   
     z-index: 1;
   }
   .gallery-item-2{
@@ -228,11 +230,11 @@ section{
   
   .gallery-item-3{
     box-shadow: -2px 5px 33px 6px rgba(0,0,0,0,.35);
-    height: 300px;
+    height: 250%;
     opacity: 1;
     left: 50%;
     transform: translateX(-50%);
-    width: 430px;
+    
     z-index: 2;
   }
   .gallery-item-4{
@@ -242,10 +244,11 @@ section{
   }
   .gallery-item-5{
     left: 85%;
-    opacity: .4;
+    opacity: 0.8;
     transform: translateX(-50%);
   }
   .gallery-controls{
+    padding-top: 80px;
     display: flex;
     justify-content: center;
     margin: 25px 0;
@@ -259,6 +262,7 @@ section{
     font-size: 30px;
     margin: 0 50px;
     padding: 0 12px;
+    padding-top: 80px;
     text-transform: capitalize;
   }
   .gallery-controls button:focus{
@@ -268,7 +272,7 @@ section{
     position: relative;
   }
   .gallery-controls-Voltar::before{
-    border: solid#000;
+    border: solid#fffcfc;
     border-width: 0 5px 5px 0;
     content: '';
     display: inline-block;
@@ -289,7 +293,7 @@ section{
     position: relative;
   }
   .gallery-controls-Próximo::before{
-    border: solid#000;
+    border: solid#fffcfc;
     border-width: 0 5px 5px 0;
     content: '';
     display: inline-block;
@@ -297,7 +301,7 @@ section{
     padding: 10px;
     position: absolute;
     right: -30px;
-    top: 45%;
+    top: 55%;
     transform: rotate(-45deg) translateY(-50%) ;
     transition: right 0.15s ease-in-out;
     width: 5px;
